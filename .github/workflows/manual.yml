@@ -34,5 +34,5 @@ jobs:
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
     - name: where is node
-      run: which node
+      run: node -v
     - run: exit 1
